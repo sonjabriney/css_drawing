@@ -1,0 +1,252 @@
+body {
+	background-color: #cce6ff;
+}
+
+#circle {
+	width: 30px;
+	height: 30px;
+	background-color: #002266;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 400px;
+	left: 600px;
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#petal1 {
+	background-color: #ffffb3;
+	width: 30px;
+	height: 90px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 300px;
+	left: 600px;
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#petal2 {
+	background-color: #ffffb3;
+	width: 30px;
+	height: 90px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 340px;
+	left: 675px;
+	transform: rotate(60deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#petal3 {
+	background-color: #ffffb3;
+	width: 30px;
+	height: 90px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 425px;
+	left: 660px;
+	transform: rotate(130deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#petal4 {
+	background-color: #ffffb3;
+	width: 30px;
+	height: 90px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 428px;
+	left: 555px;
+	transform: rotate(221deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#petal5 {
+	background-color: #ffffb3;
+	width: 30px;
+	height: 90px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 340px;
+	left: 530px;
+	transform: rotate(300deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#lilcircle {
+	width: 15px;
+	height: 15px;
+	background-color: #ffb366;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 120px;
+	left: 250px;
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#lil1 {
+	background-color: #bf4080;
+	width: 15px;
+	height: 45px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 70px;
+	left: 250px;
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#lil2 {
+	background-color: #bf4080;
+	width: 15px;
+	height: 45px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 90px;
+	left: 285px;
+	transform: rotate(60deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#lil3 {
+	background-color: #bf4080;
+	width: 15px;
+	height: 45px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 130px;
+	left: 280px;
+	transform: rotate(130deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#lil4 {
+	background-color: #bf4080;
+	width: 15px;
+	height: 45px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 130px;
+	left: 225px;
+	transform: rotate(221deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#lil5 {
+	background-color: #bf4080;
+	width: 15px;
+	height: 45px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 90px;
+	left: 218px;
+	transform: rotate(300deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#othercircle {
+	width: 15px;
+	height: 15px;
+	background-color: #004d00;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 120px;
+	right: 180px;
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#other1 {
+	background-color: #00b3b3;
+	width: 15px;
+	height: 45px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;	
+	top: 70px;
+	right: 180px;
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#other2 {
+	background-color: #00b3b3;
+	width: 15px;
+	height: 45px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;	
+	top: 90px;
+	right: 150px;
+	transform: rotate(60deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#other3 {
+	background-color: #00b3b3;
+	width: 15px;
+	height: 45px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;	
+	top: 130px;
+	right: 155px;
+	transform: rotate(130deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#other4 {
+	background-color: #00b3b3;
+	width: 15px;
+	height: 45px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;	
+	top: 130px;
+	right: 203px;
+	transform: rotate(221deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+#other5 {
+	background-color: #00b3b3;
+	width: 15px;
+	height: 45px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;	
+	top: 90px;
+	right: 210px;
+	transform: rotate(300deg);
+	animation: slidein 3s linear 1s infinite running;
+}
+
+
+
